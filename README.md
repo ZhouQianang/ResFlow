@@ -14,8 +14,8 @@ bash scripts/train.sh
 ```
 
 ## Testing
-- Prepare the event-data of DSEC-Flow-test as required. our method does not use raw event data during trainging. 
-- The Event-FWL metric implementation is provided in the `utils` directory, and and example od its usage is provided in `train_Dsec_Separate.py`
+- Prepare the event-data of DSEC-Flow-test as required. our method does not use raw event data during training. 
+- The Event-FWL metric implementation is provided in the `utils` directory, and an example of its usage is provided in `train_Dsec_Separate.py`
 
 ## Acknowledgment
 This work builds upon several excellent open-source projects:
