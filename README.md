@@ -8,7 +8,7 @@ Note: the first bin is not used, as 16bins correspond to 15 time intervals.
 
 ## Training
 1. Training the LTR part. The LTR stage is similar to TMA, but differs in the voxel bin setting (15 for TMA vs. 16 in our method)
-2. Training the HTR part. Starting from the pretrained LTR model, run the HTR training useing:
+2. Training the HTR part. Starting from the pretrained LTR model, run the HTR training using:
 ```
 bash scripts/train.sh
 ```
